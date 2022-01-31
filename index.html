@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== Unicons ========== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--========== swiper CSS ========== -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- ========== CSS ============ -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ========== swipper JS =========== -->
+    <script src="js/swiper-bundle.min.js" defer></script>
+
+    <!-- ========== Custom JS ============ -->
+    <script src="js/main.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+<!-- ========== Header ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Fabio Aurora</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item" id="home-link">
+                        <a href="#home" class="nav_link">
+                            <div class="nav_icon_border">
+                                <i class="uil uil-estate nav_icon"></i>
+                            </div>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav_item" id="about-link">
+                        <a href="#about" class="nav_link">
+                            <div class="nav_icon_border">
+                                <i class="uil uil-user nav_icon"></i>
+                            </div>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav_item" id="projects-link">
+                        <a href="#projects" class="nav_link">
+                            <div class="nav_icon_border">
+                                <i class="uil uil-scenery nav_icon"></i>
+                            </div>
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav_item" id="contact-link">
+                        <a href="#contact" class="nav_link" id="contact-link-a">
+                            <div class="nav_icon_border
+                            nav_contact-icon-border" id="nav-icon-border">
+                                <i class="uil uil-envelope-alt nav_contact-icon nav_icon" id="nav-icon"></i>
+                                <span class="contact-text">Contact</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btn">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ====================== Main ====================== -->
+    <main class="main">
+    <!-- ================== Home Section ====================== -->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social-links">
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home_img-container">
+                        <img src="images/fabio-profile-novo.png" alt="Fabio, with glasses, portfolio image ">
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I'm Fabio Aurora</h1>
+                        <h3 class="home_subtitle">Frontend Developer</h3>
+                        <p class="home_description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam mollitia quas ullam obcaecati dicta id molestias, sit a natus ipsam sint eius explicabo sunt architecto.
+                        </p>
+                        <a href='#contact' class="button button-flex">
+                            Contact me <i class="uil uil-message button__icon button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button-flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- ========== About Me ========== -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <h3 class="section_subtitle">My introduction</h3>
+
+            <div class="about_container container grid" id="about-container">
+
+                <div class="about_data">
+                    <div class="about_data-info" id="data-info">
+                        <img class="about_section-img" src="images/fabio-about.jpg" alt="just a generic alt text for now">
+                        <div id="p-wrapper">
+                            <p class="about_introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illum est harum esse ex repudiandae sequi suscipit, vitae laudantium assumenda ipsa explicabo vel nihil nam? Unde sequi esse harum dicta.</p>
+                        </div>
+                    </div>
+
+                    <div class="about_skills">
+                        <div >
+                            <i class="uil uil-html5 about_skills-icon"></i>
+                            <p class="about_skills-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias esse magni numquam ad ducimus! Et vero ipsum reiciendis nemo perspiciatis?
+                            </p>
+                        </div>
+                        <div>
+                            <i class="uil uil-css3-simple about_skills-icon"></i>
+                            <p class="about_skills-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias esse magni numquam ad ducimus! Et vero ipsum reiciendis nemo perspiciatis?
+                            </p>
+                        </div>
+                        <div>
+                            <i class="uil uil-java-script about_skills-icon"></i>
+                            <p class="about_skills-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias esse magni numquam ad ducimus! Et vero ipsum reiciendis nemo perspiciatis?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about_data-button" id="data-button">
+                    <a class="button" role="button">
+                        <i class="uil uil-download-alt button_icon" id="download-btn"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- ========== Project Section ========== -->
+        <section class="projects section" id="projects">
+            <h2 class="section_title">Portfolio</h2>
+            <h3 class="section_subtitle">Some of my Projects</h3>
+
+            <div class="projects_container container swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- ========== Project Section 1 ========== -->
+                    <div class="projects_content grid swiper-slide">
+                        <img src="images/project1.jpg" class="projects_img" alt="">
+
+                        <div class="projects_data">
+                            <h3 class="projects_title">Project 1 Name</h3>
+                            <p class="projects_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos provident</p>
+                            <a href="#" class="button button-flex button-small projects_button">
+                                <i class="uil uil-external-link-alt preview_icon"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ========== Project Section 2 ========== -->
+                    <div class="projects_content grid swiper-slide">
+                        <img src="images/project2.jpg" class="projects_img" alt="">
+
+                        <div class="projects_data">
+                            <h3 class="projects_title">Project 1 Name</h3>
+                            <p class="projects_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos provident</p>
+                            <a href="#" class="button button-flex button-small projects_button">
+                                <i class="uil uil-external-link-alt preview_icon"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ========== Project Section 3========== -->
+                    <div class="projects_content grid swiper-slide">
+                        <img src="images/project3.jpg" class="projects_img" alt="">
+
+                        <div class="projects_data">
+                            <h3 class="projects_title">Project 3 Name</h3>
+                            <p class="projects_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos providen</p>
+                            <a href="" class="button button-flex button-small projects_button">
+                                <i class="uil uil-external-link-alt preview_icon"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== Navigation buttons ========== -->
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper_pagination-icon"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper_pagination-icon"></i>
+                </div>
+                <!-- ========== pagination ========== -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    <!-- ========== Contact ========== -->
+    <section class="contact section" id="contact">
+        <h2 class="section_title">Contact me</h2>
+        <h3 class="section_subtitle">Get in touch</h3>
+
+        <div class="contact_container container grid">
+            <div class="contact_information">
+                <i class="uil uil-phone contact_icon"></i>
+
+                <div>
+                    <h3 class="contact_title">Tel</h3>
+                    <span class="contact_subtitle">44+ 076534253</span>
+                </div>
+            </div>
+            <div class="contact_information">
+                <i class="uil uil-envelope-alt contact_icon"></i>
+
+                <div>
+                    <h3 class="contact_title">Email</h3>
+                    <span class="contact_subtitle">fabioauroradeveloper@gmail.com</span>
+                </div>
+            </div>
+            <div class="contact_information">
+                <i class="uil uil-location-point contact_icon"></i>
+
+                <div>
+                    <h3 class="contact_title">Location</h3>
+                    <span class="contact_subtitle">UK, England, Merseyside</span>
+                </div>
+            </div>
+
+            <form action="https://formsubmit.co/fabioauroradeveloper@gmail.com" method="POST " class="contact_form grid" id="contact-form">
+                <div class="contact_inputs grid">
+                    <div class="contact_content">
+                        <label for="name" class="contact_label">Name</label>
+                        <input type="text" class="contact_input" id="name" name="name" required>
+                    </div>
+                    <div class="contact_content">
+                        <label for="email" class="contact_label">Email</label>
+                        <input type="email" class="contact_input" name="email" id="email" placeholder="@" required>
+                    </div>
+                </div>
+                <div class="contact_content">
+                    <label for="subject" class="contact_label">Subject</label>
+                    <input type="text" class="contact_input" name="subject" id="subject">
+                </div>
+                <div class="contact_content">
+                    <label for="" class="contact_label">Message</label>
+                    <textarea name="message"  class="contact_input" placeholder="Your message here"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="button button-flex" id="form-btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
+    <a href="#home" class="scrollup_btn" id="scrollUp-btn">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+</body>
+</html>
