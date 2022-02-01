@@ -300,6 +300,8 @@ img {
 }
 
 .home_social-icon {
+    width: max-content;
+    height: 27px;
     font-size: 1.25rem;
     color: var(--button-color);
 }
@@ -321,6 +323,62 @@ img {
 .home__social--linkedin {
     color: #0A66C2;
 }
+
+/* ======= instagram logo ===== */
+.instagram-logo {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+    border-radius: 4.60966543px;
+    box-shadow: 0px 0.14869888px 0.66914498px rgba(0, 0, 0, 0.25);
+  }
+  .instagram-logo:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    content: '';
+    background: radial-gradient(circle farthest-corner at 28% 100%, #FCDF8F 0%, #FBD377 10%, #FA8E37 22%, #F73344 35%, rgba(247, 51, 68, 0) 65%) no-repeat;
+  }
+  .instagram-logo,
+  .instagram-logo * {
+    box-sizing: border-box;
+  }
+  .instagram-logo * {
+    position: absolute;
+    display: block;
+  }
+  .instagram-logo > div {
+    top: 2.67657993px;
+    left: 2.67657993px;
+    width: 14.64684015px;
+    height: 14.64684015px;
+    border-radius: 4.23791822px;
+    border: 1.26394052px #ffffff solid;
+  }
+  .instagram-logo > div > div:nth-child(1) {
+    top: 2.34200743px;
+    left: 2.34200743px;
+    width: 7.43494424px;
+    height: 7.43494424px;
+    border-radius: 50%;
+    border: 1.26394052px #ffffff solid;
+  }
+  .instagram-logo > div > div:nth-child(2) {
+    display: block;
+    width: 1.71003717px;
+    height: 1.71003717px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    right: 1.26394052px;
+    top: 1.26394052px;
+  }
+
+
 
 
 .home_img-container {
