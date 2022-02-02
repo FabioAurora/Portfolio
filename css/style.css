@@ -132,19 +132,11 @@ img {
 
 .section_title {
     font-size: var(--title-h1);
-    margin-bottom: var(--mb-0-75);
+    margin-bottom: 4rem;
 }
 
-.section_subtitle {
-    display: block;
-    font-size: var(--small-font-size);
-    margin-bottom: var(--mb-3);
-    font-weight: var(--font-medium);
-    color: var(--button-color);
-}
 
-.section_title,
-.section_subtitle {
+.section_title {
     text-align: center;
 }
 
@@ -478,7 +470,7 @@ img {
 }
 
 .button_icon {
-    font-size: 1.25rem;
+    font-size: .8rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
 }
@@ -723,6 +715,9 @@ img {
     .nav_list {
         column-gap: 0;
     }
+    .nav_close {
+    right: .3rem;
+    }
 
     .home_content {
         grid-template-columns: .25 3fr;
@@ -872,7 +867,7 @@ img {
     .section {
         padding: 6rem 0 2rem;
     }
-    .section_subtitle {
+    .section_title {
         margin-bottom: 4rem;
     }
 
