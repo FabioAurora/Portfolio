@@ -251,25 +251,34 @@
                 </div>
             </div>
 
-            <form action="https://formsubmit.co/fabioauroradeveloper@gmail.com" method="POST " class="contact_form grid" id="contact-form">
+            <form action="https://formsubmit.co/fabioauroradev@gmail.com" method="POST " class="contact_form grid" id="contact-form">
+
                 <div class="contact_inputs grid">
                     <div class="contact_content">
                         <label for="name" class="contact_label">Name</label>
                         <input type="text" class="contact_input" id="name" name="name" required>
                     </div>
+
                     <div class="contact_content">
                         <label for="email" class="contact_label">Email</label>
-                        <input type="email" class="contact_input" name="email" id="email" placeholder="your email@" required>
+                        <input type="email" class="contact_input" name="email" id="email" placeholder="Email Address" required>
                     </div>
+
                 </div>
+
                 <div class="contact_content">
                     <label for="subject" class="contact_label">Subject</label>
                     <input type="text" class="contact_input" name="subject" id="subject">
                 </div>
+
                 <div class="contact_content">
                     <label for="" class="contact_label">Message</label>
                     <textarea name="message"  class="contact_input" placeholder="Your message here"></textarea>
                 </div>
+
+                <input type="hidden" name="_next" value="https://https://fabioaurora.github.io/Portfolio/thankyou.html">
+
+                <input type="hidden" name="_subject" value="New submission email!">
 
                 <div>
                     <button type="submit" class="button button-flex" id="form-btn">Send Message</button>
