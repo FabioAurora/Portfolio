@@ -77,16 +77,27 @@ $(document).ready(() => {
 
 
 /* moving the Download CV button on screen size */
+/* Contact link text moved outside of the container when in bigger screens */
 /* JavaScript Media Queries */
-$(window).resize(() => {
-    $(document).ready(() => {
-        if(window.innerWidth > 767) {
+
+$(document).ready(function() {
+    /* ========== when resizing the window ========== */
+    $(window).resize(() => {
+            if(window.innerWidth >= 767) {
                 $('#p-wrapper').append($('#data-button'));
                 $('#contact-link-a').append($('.contact-text'));
-        }else {
+            }else {
                 $('#about-container').append($('#data-button'));
                 $('#nav-icon-border').append($('.contact-text'));
-        }
+            }
     })
-})
 
+    /* ========== when at the active viewport */
+    if($(window).width() >= 767) {
+        $('#p-wrapper').append($('#data-button'));
+        $('#contact-link-a').append($('.contact-text'));
+    }else {
+        $('#about-container').append($('#data-button'));
+        $('#nav-icon-border').append($('.contact-text'));
+    }
+})
